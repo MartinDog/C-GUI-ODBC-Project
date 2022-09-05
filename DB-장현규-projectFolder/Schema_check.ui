@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Schema_check</class>
+ <widget class="QWidget" name="Schema_check">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>185</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Schema check</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>521</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="schema">
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>140</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>SERVER_MANAGER</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Game</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>GAME_SERVER</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SERVER_COMPUTER</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PLAYER</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ERROR_DETECT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>QnA</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>테이블 구조 확인</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

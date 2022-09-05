@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DatabaseAssignmentClass</class>
+ <widget class="QWidget" name="DatabaseAssignmentClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Query Select</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>521</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>125</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>40</y>
+     <width>189</width>
+     <height>189</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout2">
+    <item>
+     <widget class="QRadioButton" name="total">
+      <property name="text">
+       <string>전체조회</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="less10m">
+      <property name="text">
+       <string>게임이 종료된 서버 조회</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="QnA">
+      <property name="text">
+       <string>처리되지 않은 QnA 조회</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="Server_person">
+      <property name="text">
+       <string>서버 인원 조회</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="date_check">
+      <property name="text">
+       <string>특정 서버 점검요일 조회</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="morethan">
+      <property name="text">
+       <string>특정 인원 수 이상 서버 조회</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="certain_value">
+      <property name="text">
+       <string>특정 값을 포함하는 튜플 검색</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="execute">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>실행</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>521</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="special_purpose">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QComboBox" name="combofor">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>240</y>
+     <width>191</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="get_number">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>270</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="DatabaseAssignment.qrc"/>
+ </resources>
+ <connections/>
+</ui>

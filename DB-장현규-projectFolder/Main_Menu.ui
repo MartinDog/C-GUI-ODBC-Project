@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Menu</class>
+ <widget class="QWidget" name="Main_Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Main Menu</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>69</y>
+     <width>160</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="schema">
+      <property name="text">
+       <string>Schema Check</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="select">
+      <property name="text">
+       <string>Select Query</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="insert">
+      <property name="text">
+       <string>Insert Query</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="update">
+      <property name="text">
+       <string>Update Query</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="delete_2">
+      <property name="text">
+       <string>Delete Query</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="custom">
+      <property name="text">
+       <string>Custom Query</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Game Server Manage</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

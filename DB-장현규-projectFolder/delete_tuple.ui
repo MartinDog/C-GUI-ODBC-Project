@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>delete_tuple</class>
+ <widget class="QWidget" name="delete_tuple">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>553</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Delete Query</string>
+  </property>
+  <widget class="QLabel" name="Information">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>231</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>60</y>
+     <width>173</width>
+     <height>216</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="Keydelete">
+      <property name="text">
+       <string>키값을 이용한 삭제</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="QnA_del">
+      <property name="text">
+       <string>답변 완료 QnA 일괄 삭제</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="server_computer">
+      <property name="text">
+       <string>서버 컴퓨터 삭제 자동 처리</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="server_manager">
+      <property name="text">
+       <string>서버 관리자 삭제 자동 처리</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="excute">
+      <property name="text">
+       <string>실행</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="combofor"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="get_key"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Game Server Manager</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Query_insert</class>
+ <widget class="QWidget" name="Query_insert">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Query_insert</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>40</y>
+     <width>201</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="normal_input">
+      <property name="text">
+       <string>일반 입력</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="QnAautoinput">
+      <property name="text">
+       <string>QnA 자동 입력</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="auto_server">
+      <property name="text">
+       <string>서버컴퓨터 자동 입력</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="auto_player">
+      <property name="text">
+       <string>플레이어 자동입력</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="auto_ERROR_DETECT">
+      <property name="text">
+       <string>서버 컴퓨터 감시 체계 자동 할당</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="execute">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>실행</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>입력할 값을 &quot;,&quot;로 분리하여 적어주세요</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="get_value">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>SERVER MANAGE INSERT
+                              QUERY</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
